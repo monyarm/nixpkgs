@@ -30,7 +30,11 @@ lib.makeScope newScope (self:
 
     chroma = callPackage ../development/nim-packages/chroma { };
 
+    chronicles = callPackage ../development/nim-packages/chronicles { };
+
     docopt = callPackage ../development/nim-packages/docopt { };
+
+    faststreams = callPackage ../development/nim-packages/faststreams { };
 
     flatty = callPackage ../development/nim-packages/flatty { };
 
@@ -45,11 +49,17 @@ lib.makeScope newScope (self:
 
     jester = callPackage ../development/nim-packages/jester { };
 
+    json_rpc = callPackage ../development/nim-packages/json_rpc { };
+
     jsonschema = callPackage ../development/nim-packages/jsonschema { };
+
+    json_serialization = callPackage ../development/nim-packages/json_serialization { };
 
     jsony = callPackage ../development/nim-packages/jsony { };
 
     karax = callPackage ../development/nim-packages/karax { };
+
+    langserver = callPackage ../development/nim-packages/langserver { };
 
     lscolors = callPackage ../development/nim-packages/lscolors { };
 
@@ -89,6 +99,8 @@ lib.makeScope newScope (self:
 
     segmentation = callPackage ../development/nim-packages/segmentation { };
 
+    serialization = callPackage ../development/nim-packages/serialization { };
+
     snappy =
       callPackage ../development/nim-packages/snappy { inherit (pkgs) snappy; };
 
@@ -113,6 +125,8 @@ lib.makeScope newScope (self:
     unicodeplus = callPackage ../development/nim-packages/unicodeplus { };
 
     vmath = callPackage ../development/nim-packages/vmath { };
+
+    nim-with = callPackage ../development/nim-packages/nim-with { };
 
     zippy = callPackage ../development/nim-packages/zippy { };
 
